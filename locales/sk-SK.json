@@ -34,10 +34,10 @@
     },
     "bear": {
       "phrases": {
-        "0": "Odbočte mierne <RELATIVE_DIRECTION>.",
-        "1": "Odbočte mierne <RELATIVE_DIRECTION> na <STREET_NAMES>.",
-        "2": "Odbočte mierne <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
-        "3": "Odbočte mierne <RELATIVE_DIRECTION>, aby ste zostali na <STREET_NAMES>.",
+        "0": "<b>Odbočte</b> mierne <RELATIVE_DIRECTION>.",
+        "1": "<b>Odbočte</b> mierne <RELATIVE_DIRECTION> na <STREET_NAMES>.",
+        "2": "<b>Odbočte</b> mierne <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
+        "3": "<b>Odbočte</b> mierne <RELATIVE_DIRECTION>, aby ste zostali na <STREET_NAMES>.",
         "4": "Bear <RELATIVE_DIRECTION> at <JUNCTION_NAME>.",
         "5": "Bear <RELATIVE_DIRECTION> toward <TOWARD_SIGN>."
       },
@@ -52,16 +52,16 @@
       ],
       "example_phrases": {
         "0": [
-          "Odbočte mírně vpravo."
+          "<b>Odbočte</b> mírně vpravo."
         ],
         "1": [
-          "Odbočte mírně vlevo na Arlen Road."
+          "<b>Odbočte</b> mírně vlevo na Arlen Road."
         ],
         "2": [
-          "Odbočte mírně vpravo right na Belair Road/US 1 Business. Continue on US 1 Business."
+          "<b>Odbočte</b> mírně vpravo right na Belair Road/US 1 Business. Continue on US 1 Business."
         ],
         "3": [
-          "Odbočte mírně vlevo, abyste zůstali na US 15 South."
+          "<b>Odbočte</b> mírně vlevo, abyste zůstali na US 15 South."
         ],
         "4": [
           "Bear right at Mannenbashi East."
@@ -75,7 +75,7 @@
       "phrases": {
         "0": "Mierne <RELATIVE_DIRECTION>.",
         "1": "Mierne <RELATIVE_DIRECTION> na <STREET_NAMES>.",
-        "2": "Mierne <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
+        "2": "Mierne <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
         "3": "Mierne <RELATIVE_DIRECTION> a zostaňte na <STREET_NAMES>.",
         "4": "Bear <RELATIVE_DIRECTION> at <JUNCTION_NAME>.",
         "5": "Bear <RELATIVE_DIRECTION> toward <TOWARD_SIGN>."
@@ -132,8 +132,8 @@
     },
     "continue": {
       "phrases": {
-        "0": "Pokračujte.",
-        "1": "Pokračujte po <STREET_NAMES>.",
+        "0": "<span style='font-style: italic;'>Pokračujte</span>.",
+        "1": "<span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>.",
         "2": "Continue at <JUNCTION_NAME>.",
         "3": "Continue toward <TOWARD_SIGN>."
       },
@@ -144,10 +144,10 @@
       ],
       "example_phrases": {
         "0": [
-          "Pokračujte."
+          "<span style='font-style: italic;'>Pokračujte</span>."
         ],
         "1": [
-          "Pokračujte po 10th Avenue."
+          "<span style='font-style: italic;'>Pokračujte</span> po 10th Avenue."
         ],
         "2": [
           "Continue at Mannenbashi East."
@@ -159,10 +159,10 @@
     },
     "continue_verbal": {
       "phrases": {
-        "0": "Pokračujte.",
-        "1": "Pokračujte <LENGTH>.",
-        "2": "Pokračujte po <STREET_NAMES>.",
-        "3": "Pokračujte <LENGTH> po <STREET_NAMES>.",
+        "0": "<span style='font-style: italic;'>Pokračujte</span>.",
+        "1": "<span style='font-style: italic;'>Pokračujte</span> <LENGTH>.",
+        "2": "<span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>.",
+        "3": "<span style='font-style: italic;'>Pokračujte</span> <LENGTH> po <STREET_NAMES>.",
         "4": "Continue at <JUNCTION_NAME>.",
         "5": "Continue at <JUNCTION_NAME> for <LENGTH>.",
         "6": "Continue toward <TOWARD_SIGN>.",
@@ -189,10 +189,10 @@
       ],
       "example_phrases": {
         "0": [
-          "Pokračujte"
+          "<span style='font-style: italic;'>Pokračujte</span>"
         ],
         "1": [
-          "Pokračujte 300 metrov"
+          "<span style='font-style: italic;'>Pokračujte</span> 300 metrov"
         ],
         "2": [
           "Continue on 10th Avenue."
@@ -216,8 +216,8 @@
     },
     "continue_verbal_alert": {
       "phrases": {
-        "0": "Pokračujte.",
-        "1": "Pokračujte po <STREET_NAMES>.",
+        "0": "<span style='font-style: italic;'>Pokračujte</span>.",
+        "1": "<span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>.",
         "2": "Continue at <JUNCTION_NAME>.",
         "3": "Continue toward <TOWARD_SIGN>."
       },
@@ -228,10 +228,10 @@
       ],
       "example_phrases": {
         "0": [
-          "Pokračujte."
+          "<span style='font-style: italic;'>Pokračujte</span>."
         ],
         "1": [
-          "Pokračujte po 10th Avenue."
+          "<span style='font-style: italic;'>Pokračujte</span> po 10th Avenue."
         ],
         "2": [
           "Continue at Mannenbashi East."
@@ -709,7 +709,7 @@
       "phrases": {
         "0": "Výjdite z kruhového objazdu.",
         "1": "Výjdite z kruhového objazdu na <STREET_NAMES>.",
-        "2": "Výjdite z kruhového objazdu na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
+        "2": "Výjdite z kruhového objazdu na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
         "3": "Exit the roundabout toward <TOWARD_SIGN>."
       },
       "empty_street_name_labels": [
@@ -725,7 +725,7 @@
           "Vyjeďte z kruhového objezdu na Philadelphia Road/MD 7."
         ],
         "2": [
-          "Vyjeďte z kruhového objezdu na Catoctin Mountain Highway/US 15. Pokračujte na US 15."
+          "Vyjeďte z kruhového objezdu na Catoctin Mountain Highway/US 15. <span style='font-style: italic;'>Pokračujte</span> na US 15."
         ],
         "3": [
           "Exit the roundabout toward Baltimore."
@@ -1130,8 +1130,8 @@
     },
     "post_transition_verbal": {
       "phrases": {
-        "0": "Pokračujte <LENGTH>.",
-        "1": "Pokračujte po <STREET_NAMES> <LENGTH>."
+        "0": "<span style='font-style: italic;'>Pokračujte</span> <LENGTH>.",
+        "1": "<span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES> <LENGTH>."
       },
       "empty_street_name_labels": [
         "chodníku",
@@ -1154,12 +1154,12 @@
       ],
       "example_phrases": {
         "0": [
-          "Pokračujte 300 stop.",
-          "Pokračujte 9 mil."
+          "<span style='font-style: italic;'>Pokračujte</span> 300 stop.",
+          "<span style='font-style: italic;'>Pokračujte</span> 9 mil."
         ],
         "1": [
-          "Pokračujte po Pennsylvania 7 43 6,2 mil.",
-          "Pokračujte po Main Street, Vermont 30 po 1 desetinu míle."
+          "<span style='font-style: italic;'>Pokračujte</span> po Pennsylvania 7 43 6,2 mil.",
+          "<span style='font-style: italic;'>Pokračujte</span> po Main Street, Vermont 30 po 1 desetinu míle."
         ]
       }
     },
@@ -1170,11 +1170,11 @@
         "2": "Použite nájazd <RELATIVE_DIRECTION> smer <TOWARD_SIGN>.",
         "3": "Použite nájazd <BRANCH_SIGN> <RELATIVE_DIRECTION> smer <TOWARD_SIGN>.",
         "4": "Použite nájazd <NAME_SIGN> <RELATIVE_DIRECTION>.",
-        "5": "Odbočte <RELATIVE_DIRECTION> na nájazd.",
-        "6": "Odbočte <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN>.",
-        "7": "Odbočte <RELATIVE_DIRECTION> na nájazd smer <TOWARD_SIGN>.",
-        "8": "Odbočte <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
-        "9": "Odbočte <RELATIVE_DIRECTION> na nájazd <NAME_SIGN>.",
+        "5": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd.",
+        "6": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN>.",
+        "7": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd smer <TOWARD_SIGN>.",
+        "8": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
+        "9": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd <NAME_SIGN>.",
         "10": "Použite nájazd.",
         "11": "Použite nájazd <BRANCH_SIGN>.",
         "12": "Použite nájazd smer <TOWARD_SIGN>.",
@@ -1203,20 +1203,20 @@
           "Použijte nájezd Gettysburg Pike vpravo."
         ],
         "5": [
-          "Odbočte vlevo na nájezd.",
-          "Odbočte vpravo na nájezd."
+          "<b>Odbočte</b> vlevo na nájezd.",
+          "<b>Odbočte</b> vpravo na nájezd."
         ],
         "6": [
-          "Odbočte vlevo na nájezd PA 283 West."
+          "<b>Odbočte</b> vlevo na nájezd PA 283 West."
         ],
         "7": [
-          "Odbočte vlevo na nájezd směr Harrisburg/Harrisburg International Airport."
+          "<b>Odbočte</b> vlevo na nájezd směr Harrisburg/Harrisburg International Airport."
         ],
         "8": [
-          "Odbočte vlevo na nájezd PA 283 West směr Harrisburg/Harrisburg International Airport."
+          "<b>Odbočte</b> vlevo na nájezd PA 283 West směr Harrisburg/Harrisburg International Airport."
         ],
         "9": [
-          "Odbočte vpravo na nájezd Gettysburg Pike."
+          "<b>Odbočte</b> vpravo na nájezd Gettysburg Pike."
         ],
         "10": [
           "Použijte nájezd."
@@ -1237,53 +1237,53 @@
     },
     "ramp_straight": {
       "phrases": {
-        "0": "Pokračujte rovno na nájazd.",
-        "1": "Pokračujte rovno na nájazd <BRANCH_SIGN>.",
-        "2": "Pokračujte rovno na nájazd smer <TOWARD_SIGN>.",
-        "3": "Pokračujte rovno na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
-        "4": "Pokračujte rovno na nájazd <NAME_SIGN>."
+        "0": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd.",
+        "1": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd <BRANCH_SIGN>.",
+        "2": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd smer <TOWARD_SIGN>.",
+        "3": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
+        "4": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd <NAME_SIGN>."
       },
       "example_phrases": {
         "0": [
-          "Pokračujte rovně na nájezd."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd."
         ],
         "1": [
-          "Pokračujte rovně na nájezd US 322 East."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd US 322 East."
         ],
         "2": [
-          "Pokračujte rovně na nájezd směr Hershey."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd směr Hershey."
         ],
         "3": [
-          "Pokračujte rovně na nájezd US 322 East/US 422 East/US 522 East/US 622 East směr Hershey/Palmdale/Palmyra/Campbelltown."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd US 322 East/US 422 East/US 522 East/US 622 East směr Hershey/Palmdale/Palmyra/Campbelltown."
         ],
         "4": [
-          "Pokračujte rovně na nájezd Gettysburg Pike."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd Gettysburg Pike."
         ]
       }
     },
     "ramp_straight_verbal": {
       "phrases": {
-        "0": "Pokračujte rovno na nájazd.",
-        "1": "Pokračujte rovno na nájazd <BRANCH_SIGN>.",
-        "2": "Pokračujte rovno na nájazd smer <TOWARD_SIGN>.",
-        "3": "Pokračujte rovno na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
-        "4": "Pokračujte rovno na nájazd <NAME_SIGN>."
+        "0": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd.",
+        "1": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd <BRANCH_SIGN>.",
+        "2": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd smer <TOWARD_SIGN>.",
+        "3": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
+        "4": "<span style='font-style: italic;'>Pokračujte</span> rovno na nájazd <NAME_SIGN>."
       },
       "example_phrases": {
         "0": [
-          "Pokračujte rovně na nájezd."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd."
         ],
         "1": [
-          "Pokračujte rovně na nájezd U.S. 3 22 East."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd U.S. 3 22 East."
         ],
         "2": [
-          "Pokračujte rovně na nájezd směr Hershey."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd směr Hershey."
         ],
         "3": [
-          "Pokračujte rovně na nájezd U.S. 3 22 East, U.S. 4 22 East směr Hershey, Palmdale."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd U.S. 3 22 East, U.S. 4 22 East směr Hershey, Palmdale."
         ],
         "4": [
-          "Pokračujte rovně na nájezd Gettysburg Pike."
+          "<span style='font-style: italic;'>Pokračujte</span> rovně na nájezd Gettysburg Pike."
         ]
       }
     },
@@ -1294,11 +1294,11 @@
         "2": "Použite nájazd <RELATIVE_DIRECTION> smer <TOWARD_SIGN>.",
         "3": "Použite nájazd <BRANCH_SIGN> <RELATIVE_DIRECTION> smer <TOWARD_SIGN>.",
         "4": "Použite nájazd <NAME_SIGN> <RELATIVE_DIRECTION>.",
-        "5": "Odbočte <RELATIVE_DIRECTION> na nájazd.",
-        "6": "Odbočte <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN>.",
-        "7": "Odbočte <RELATIVE_DIRECTION> na nájazd smer <TOWARD_SIGN>.",
-        "8": "Odbočte <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
-        "9": "Odbočte <RELATIVE_DIRECTION> na nájazd <NAME_SIGN>.",
+        "5": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd.",
+        "6": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN>.",
+        "7": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd smer <TOWARD_SIGN>.",
+        "8": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd <BRANCH_SIGN> smer <TOWARD_SIGN>.",
+        "9": "<b>Odbočte</b> <RELATIVE_DIRECTION> na nájazd <NAME_SIGN>.",
         "10": "Použite nájazd.",
         "11": "Použite nájazd <BRANCH_SIGN>.",
         "12": "Použite nájazd smer <TOWARD_SIGN>.",
@@ -1327,20 +1327,20 @@
           "Použijte nájezd Gettysburg Pike vpravo."
         ],
         "5": [
-          "Odbočte vlevo na nájezd.",
-          "Odbočte vpravo na nájezd."
+          "<b>Odbočte</b> vlevo na nájezd.",
+          "<b>Odbočte</b> vpravo na nájezd."
         ],
         "6": [
-          "Odbočte vlevo na nájezd PA 283 West."
+          "<b>Odbočte</b> vlevo na nájezd PA 283 West."
         ],
         "7": [
-          "Odbočte vlevo na nájezd směr Harrisburg/Harrisburg International Airport."
+          "<b>Odbočte</b> vlevo na nájezd směr Harrisburg/Harrisburg International Airport."
         ],
         "8": [
-          "Odbočte vlevo na nájezd PA 283 West směr Harrisburg/Harrisburg International Airport."
+          "<b>Odbočte</b> vlevo na nájezd PA 283 West směr Harrisburg/Harrisburg International Airport."
         ],
         "9": [
-          "Odbočte vpravo na nájezd Gettysburg Pike."
+          "<b>Odbočte</b> vpravo na nájezd Gettysburg Pike."
         ],
         "10": [
           "Použijte nájezd."
@@ -1361,10 +1361,10 @@
     },
     "sharp": {
       "phrases": {
-        "0": "Odbočte ostro <RELATIVE_DIRECTION>.",
-        "1": "Odbočte ostro <RELATIVE_DIRECTION> na <STREET_NAMES>.",
-        "2": "Odbočte ostro <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
-        "3": "Odbočte ostro <RELATIVE_DIRECTION>, aby ste zostali na <STREET_NAMES>.",
+        "0": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION>.",
+        "1": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION> na <STREET_NAMES>.",
+        "2": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
+        "3": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION>, aby ste zostali na <STREET_NAMES>.",
         "4": "Make a sharp <RELATIVE_DIRECTION> at <JUNCTION_NAME>.",
         "5": "Make a sharp <RELATIVE_DIRECTION> toward <TOWARD_SIGN>."
       },
@@ -1379,16 +1379,16 @@
       ],
       "example_phrases": {
         "0": [
-          "Odbočte ostře vlevo."
+          "<b>Odbočte</b> ostře vlevo."
         ],
         "1": [
-          "Odbočte ostře vpravo na Flatbush Avenue."
+          "<b>Odbočte</b> ostře vpravo na Flatbush Avenue."
         ],
         "2": [
-          "Odbočte ostře vlevo na North Bond Street/US 1 Business/MD 924. Pokračujte na MD 924."
+          "<b>Odbočte</b> ostře vlevo na North Bond Street/US 1 Business/MD 924. <span style='font-style: italic;'>Pokračujte</span> na MD 924."
         ],
         "3": [
-          "Odbočte ostře vpravo, abyste zůstali na Sunstone Drive."
+          "<b>Odbočte</b> ostře vpravo, abyste zůstali na Sunstone Drive."
         ],
         "4": [
           "Make a sharp right at Mannenbashi East."
@@ -1400,10 +1400,10 @@
     },
     "sharp_verbal": {
       "phrases": {
-        "0": "Odbočte ostro <RELATIVE_DIRECTION>.",
-        "1": "Odbočte ostro <RELATIVE_DIRECTION> na <STREET_NAMES>.",
-        "2": "Odbočte ostro <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
-        "3": "Odbočte ostro <RELATIVE_DIRECTION> a zostaňte na <STREET_NAMES>.",
+        "0": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION>.",
+        "1": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION> na <STREET_NAMES>.",
+        "2": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
+        "3": "<b>Odbočte</b> ostro <RELATIVE_DIRECTION> a zostaňte na <STREET_NAMES>.",
         "4": "Make a sharp <RELATIVE_DIRECTION> at <JUNCTION_NAME>.",
         "5": "Make a sharp <RELATIVE_DIRECTION> toward <TOWARD_SIGN>."
       },
@@ -1418,16 +1418,16 @@
       ],
       "example_phrases": {
         "0": [
-          "Odbočte ostře vlevo."
+          "<b>Odbočte</b> ostře vlevo."
         ],
         "1": [
-          "Odbočte ostře vpravo na Flatbush Avenue."
+          "<b>Odbočte</b> ostře vpravo na Flatbush Avenue."
         ],
         "2": [
-          "Odbočte ostře vlevo na North Bond Street/US 1 Business/MD 924. Pokračujte na MD 924."
+          "<b>Odbočte</b> ostře vlevo na North Bond Street/US 1 Business/MD 924. <span style='font-style: italic;'>Pokračujte</span> na MD 924."
         ],
         "3": [
-          "Odbočte ostře vpravo a zůstaňte na Sunstone Drive."
+          "<b>Odbočte</b> ostře vpravo a zůstaňte na Sunstone Drive."
         ],
         "4": [
           "Make a sharp right at Mannenbashi East."
@@ -1441,16 +1441,16 @@
       "phrases": {
         "0": "Pohybujte sa na <CARDINAL_DIRECTION>.",
         "1": "Pohybujte sa na <CARDINAL_DIRECTION> po <STREET_NAMES>.",
-        "2": "Pohybujte sa na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. Pokračujte po <STREET_NAMES>.",
+        "2": "Pohybujte sa na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>.",
         "4": "Choďte na <CARDINAL_DIRECTION>.",
         "5": "Choďte na <CARDINAL_DIRECTION> po <STREET_NAMES>.",
-        "6": "Choďte na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. Pokračujte po <STREET_NAMES>.",
+        "6": "Choďte na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>.",
         "8": "Choďte na <CARDINAL_DIRECTION>.",
         "9": "Choďte na <CARDINAL_DIRECTION> po <STREET_NAMES>.",
-        "10": "Choďte na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. Pokračujte po <STREET_NAMES>.",
+        "10": "Choďte na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>.",
         "16": "Choďte na <CARDINAL_DIRECTION>.",
         "17": "Choďte na <CARDINAL_DIRECTION> po <STREET_NAMES>.",
-        "18": "Choďte na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. Pokračujte po <STREET_NAMES>."
+        "18": "Choďte na <CARDINAL_DIRECTION> po <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> po <STREET_NAMES>."
       },
       "cardinal_directions": [
         "sever",
@@ -1479,7 +1479,7 @@
           "Pohybujte se na sever po stezce pro horská kola."
         ],
         "2": [
-          "Pohybujte se na jih po North Prince Street/US 222/PA 272. Pokračujte na US 222/PA 272."
+          "Pohybujte se na jih po North Prince Street/US 222/PA 272. <span style='font-style: italic;'>Pokračujte</span> na US 222/PA 272."
         ],
         "4": [
           "Jeďte na východ.",
@@ -1489,7 +1489,7 @@
           "Jeďte na jihozápad po 5th Avenue."
         ],
         "6": [
-          "Jeďte na jih po North Prince Street/US 222/PA 272. Pokračujte po US 222/PA 272."
+          "Jeďte na jih po North Prince Street/US 222/PA 272. <span style='font-style: italic;'>Pokračujte</span> po US 222/PA 272."
         ],
         "8": [
           "Jděte na východ.",
@@ -1500,7 +1500,7 @@
           "Jděte na západ po chodníku"
         ],
         "10": [
-          "Jděte na jih po North Prince Street/US 222/PA 272. Pokračujte po US 222/PA 272."
+          "Jděte na jih po North Prince Street/US 222/PA 272. <span style='font-style: italic;'>Pokračujte</span> po US 222/PA 272."
         ],
         "16": [
           "Jeďte na východ.",
@@ -1512,7 +1512,7 @@
           "Jeďte na sever po stezce pro horská kola."
         ],
         "18": [
-          "Jeďte na jih po North Prince Street/US 222/PA 272. Pokračujte po US 222/PA 272."
+          "Jeďte na jih po North Prince Street/US 222/PA 272. <span style='font-style: italic;'>Pokračujte</span> po US 222/PA 272."
         ]
       }
     },
@@ -1919,10 +1919,10 @@
     },
     "turn": {
       "phrases": {
-        "0": "Odbočte <RELATIVE_DIRECTION>.",
-        "1": "Odbočte <RELATIVE_DIRECTION> na <STREET_NAMES>.",
-        "2": "Odbočte <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
-        "3": "Odbočte <RELATIVE_DIRECTION>, aby ste zostali na <STREET_NAMES>.",
+        "0": "<b>Odbočte</b> <RELATIVE_DIRECTION>.",
+        "1": "<b>Odbočte</b> <RELATIVE_DIRECTION> na <STREET_NAMES>.",
+        "2": "<b>Odbočte</b> <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
+        "3": "<b>Odbočte</b> <RELATIVE_DIRECTION>, aby ste zostali na <STREET_NAMES>.",
         "4": "Turn <RELATIVE_DIRECTION> at <JUNCTION_NAME>.",
         "5": "Turn <RELATIVE_DIRECTION> toward <TOWARD_SIGN>."
       },
@@ -1937,16 +1937,16 @@
       ],
       "example_phrases": {
         "0": [
-          "Odbočte vlevo."
+          "<b>Odbočte</b> vlevo."
         ],
         "1": [
-          "Odbočte vpravo na Flatbush Avenue."
+          "<b>Odbočte</b> vpravo na Flatbush Avenue."
         ],
         "2": [
-          "Odbočte vlevo na North Bond Street/US 1 Business/MD 924. Pokračujte na MD 924."
+          "<b>Odbočte</b> vlevo na North Bond Street/US 1 Business/MD 924. <span style='font-style: italic;'>Pokračujte</span> na MD 924."
         ],
         "3": [
-          "Odbočte vpravo, abyste zůstali na Sunstone Drive."
+          "<b>Odbočte</b> vpravo, abyste zůstali na Sunstone Drive."
         ],
         "4": [
           "Turn right at Mannenbashi East."
@@ -1958,10 +1958,10 @@
     },
     "turn_verbal": {
       "phrases": {
-        "0": "Odbočte <RELATIVE_DIRECTION>.",
-        "1": "Odbočte <RELATIVE_DIRECTION> na <STREET_NAMES>.",
-        "2": "Odbočte <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. Pokračujte na <STREET_NAMES>.",
-        "3": "Odbočte <RELATIVE_DIRECTION> a zostaňte na <STREET_NAMES>.",
+        "0": "<b>Odbočte</b> <RELATIVE_DIRECTION>.",
+        "1": "<b>Odbočte</b> <RELATIVE_DIRECTION> na <STREET_NAMES>.",
+        "2": "<b>Odbočte</b> <RELATIVE_DIRECTION> na <BEGIN_STREET_NAMES>. <span style='font-style: italic;'>Pokračujte</span> na <STREET_NAMES>.",
+        "3": "<b>Odbočte</b> <RELATIVE_DIRECTION> a zostaňte na <STREET_NAMES>.",
         "4": "Turn <RELATIVE_DIRECTION> at <JUNCTION_NAME>.",
         "5": "Turn <RELATIVE_DIRECTION> toward <TOWARD_SIGN>."
       },
@@ -1976,16 +1976,16 @@
       ],
       "example_phrases": {
         "0": [
-          "Odbočte vlevo."
+          "<b>Odbočte</b> vlevo."
         ],
         "1": [
-          "Odbočte vpravo na Flatbush Avenue."
+          "<b>Odbočte</b> vpravo na Flatbush Avenue."
         ],
         "2": [
-          "Odbočte vlevo na North Bond Street/US 1 Business/MD 924. Pokračujte na MD 924."
+          "<b>Odbočte</b> vlevo na North Bond Street/US 1 Business/MD 924. <span style='font-style: italic;'>Pokračujte</span> na MD 924."
         ],
         "3": [
-          "Odbočte vpravo a zůstaňte na Sunstone Drive."
+          "<b>Odbočte</b> vpravo a zůstaňte na Sunstone Drive."
         ],
         "4": [
           "Turn right at Mannenbashi East."
@@ -2110,10 +2110,10 @@
       ],
       "example_phrases": {
         "0": [
-          "Odbočte mírně vpravo na East Fayette Street. Potom Odbočte vpravo na North Gay Street."
+          "<b>Odbočte</b> mírně vpravo na East Fayette Street. Potom <b>Odbočte</b> vpravo na North Gay Street."
         ],
         "1": [
-          "Odbočte mírně vpravo na East Fayette Street. Potom za 500 metrov, Odbočte vpravo na North Gay Street."
+          "<b>Odbočte</b> mírně vpravo na East Fayette Street. Potom za 500 metrov, <b>Odbočte</b> vpravo na North Gay Street."
         ]
       }
     },
@@ -2137,7 +2137,7 @@
       ],
       "example_phrases": {
         "0": [
-          "Po štvrť míle, Odbočte vpravo na North Gay Street."
+          "Po štvrť míle, <b>Odbočte</b> vpravo na North Gay Street."
         ]
       }
     }
